@@ -1,0 +1,42 @@
+import java.io.*;
+import java.util.*;
+public class DaftarIsi
+{
+ public static String daftar (String judul, String halaman)
+ {
+  String str = judul;
+  for (int i = str.length(); i<50; i++)
+  str = str + ".";
+  str = str + " " + halaman;
+  return str;
+ }
+ 
+ public static void databab() 
+ {
+ }
+ public static void main (String [] ramdhani)throws IOExceptio11212n
+ {
+  BufferedReader br = new BufferedReader (new InputStreamReader(System.in));
+  System.out.println ("Masukkan Jumlah Bab\t: ");
+  int jum = Integer.parseInt(br.readLine()); 
+
+  int i;
+  String [] hal= new String [i];
+  String [] jud= new String [i];
+  for ( i = 0; i < jum; i++)
+  {
+    System.out.print ("Judul Bab\t: ");
+    jud = br.readLine();
+   
+    System.out.print ("Halaman Bab\t: ");
+    hal = br.readLine();
+   
+  }
+  for( j=0; j<hal)
+  System.out.println (jud + hal);
+  
+  
+  
+ }
+ 
+}
